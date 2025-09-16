@@ -27,17 +27,17 @@ class LinkedList{
        
         Node* get(int index);
 
-       void insertAtBeginning(int value);
+        void insertAtBeginning(int value); //O(1)
        
-       void insertAtEnd(int value);
+        void insertAtEnd(int value); //O(1)
 
-       bool insertAtPosition(int index, int value);
+        bool insertAtPosition(int index, int value); //O(n)
 
-       void deleteValue(int value);
+        void deleteValue(int value); // O(n)
 
-       bool search(int value);
+        bool search(int value); // O(n)
 
-       void display();
+        void display(); // O(n)
                           
 };
 

@@ -60,9 +60,6 @@ int main() {
     list.insertAtEnd(50);
     list.display();
 
-    // 4. Documentación del código
-    cout << "\n[4. Documentación]" << endl;
-    cout << "Los comentarios en LinkedList.cpp explican la logica de cada metodo." << endl;
 
     cout << "\n===== FIN DE PRUEBAS =====" << endl;
     return 0;
